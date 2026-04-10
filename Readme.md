@@ -42,6 +42,73 @@
 
 ---
 
+## ⚙️ Installation & Setup
+
+Follow these steps to run **Inotebook** locally on your machine:
+
+### 📁 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/inotebook.git
+cd inotebook
+```
+
+---
+
+### 🔧 2. Setup Backend
+
+```bash
+cd Backend
+npm install
+```
+
+#### ▶️ Run Backend Server
+
+```bash
+npm start
+```
+
+> The backend server will typically run on `http://localhost:5000`
+
+---
+
+### 💻 3. Setup Frontend
+
+Open a new terminal and run:
+
+```bash
+cd Frontend
+npm install
+```
+
+#### ▶️ Run Frontend App
+
+```bash
+npm run dev
+```
+
+> The frontend will typically run on `http://localhost:5173`
+
+---
+
+### 🔑 4. Environment Variables
+
+Create a `.env` file inside the **Backend** folder and add:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+PORT=5000
+```
+
+---
+
+### ✅ 5. You're Ready!
+
+* Open your browser and go to `http://localhost:5173`
+* Sign up and start creating notes 🚀
+
+
 ## 📌 Acknowledgements
 
 A huge thank you to the amazing open-source community and libraries that made this project possible:  
